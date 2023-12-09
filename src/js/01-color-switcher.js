@@ -27,3 +27,4 @@ function stopColorSwitching() {
 
 startButton.addEventListener('click', startColorSwitching);
 stopButton.addEventListener('click', stopColorSwitching);
+stopButton.disabled = true;
